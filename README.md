@@ -4,6 +4,8 @@
 ## Steps to Run
 * Just run the project, nothing fancy here :)
 
+* I appreciate your time!
+
 
 ## My Plan
 What I was going for was this:
