@@ -21,6 +21,6 @@ What I was going for was this:
 
 Things I would change include:
 
-1 - I would finish the UI.
-2 - Handle ViewModel loading states
-3 - Complete the Userdefaults functionality.
+1. I would finish the UI.
+2. Handle ViewModel loading states
+3. Complete the Userdefaults functionality.
