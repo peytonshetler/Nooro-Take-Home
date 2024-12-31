@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		79B4F89C2D245A940023D95B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 79B4F89B2D245A940023D95B /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		79B4F86E2D23683A0023D95B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		79B4F85C2D2368390023D95B /* NooroTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NooroTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B4F86D2D23683A0023D95B /* NooroTakeHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NooroTakeHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B4F8772D23683A0023D95B /* NooroTakeHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NooroTakeHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B4F89B2D245A940023D95B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +43,6 @@
 		79B4F8702D23683A0023D95B /* NooroTakeHomeTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = NooroTakeHomeTests;
-			sourceTree = "<group>";
-		};
-		79B4F87A2D23683A0023D95B /* NooroTakeHomeUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NooroTakeHomeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		79B4F8532D2368390023D95B = {
 			isa = PBXGroup;
 			children = (
+				79B4F89B2D245A940023D95B /* README.md */,
 				79B4F85E2D2368390023D95B /* NooroTakeHome */,
 				79B4F8702D23683A0023D95B /* NooroTakeHomeTests */,
-				79B4F87A2D23683A0023D95B /* NooroTakeHomeUITests */,
 				79B4F85D2D2368390023D95B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -153,9 +153,6 @@
 			dependencies = (
 				79B4F8792D23683A0023D95B /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				79B4F87A2D23683A0023D95B /* NooroTakeHomeUITests */,
-			);
 			name = NooroTakeHomeUITests;
 			packageProductDependencies = (
 			);
@@ -212,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B4F89C2D245A940023D95B /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
